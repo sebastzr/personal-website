@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 1.3rem;
+  color: #bbbbbb;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: #ffffff;
+}
+
+.active-nav-item {
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  .nav-list {
+    flex-direction: column;
+  }
+}
